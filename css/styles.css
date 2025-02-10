@@ -1,6 +1,23 @@
 body{
     background-color: #08504b;
 }
+/*Day Night toggle*/
+.switch{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.fa-sun{
+    background-color: #08504b;
+    color: #dede68;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.fa-moon{
+    background-color: #08504b;
+    color: #1e1e1c;
+    font-size: 25px;
+}
 /* h1 style*/
 h1{
     color: aliceblue;
@@ -58,5 +75,5 @@ h1{
 
 .flipCard-back {
     transform: rotateY(180deg);
-    background-color: darkred;
+    background-color: #6e0b1f;
 }
