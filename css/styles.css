@@ -1,22 +1,26 @@
 body{
     background-color: #08504b;
+    transition: background-color 0.5s ease-in-out;
 }
 /*Day Night toggle*/
 .switch{
     position: absolute;
     top: 20px;
     right: 20px;
+    width: 60px;
+    height: 34px;
 }
 .fa-sun{
-    background-color: #08504b;
+    position: absolute;
     color: #dede68;
     font-size: 25px;
-    margin-right: 10px;
 }
 .fa-moon{
-    background-color: #08504b;
-    color: #1e1e1c;
+    position: absolute;
+    color: #e8e8d3;
     font-size: 25px;
+    visibility: hidden;
+
 }
 /* h1 style*/
 h1{
